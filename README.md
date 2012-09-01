@@ -14,7 +14,7 @@ backups/daily
 backups/weekly
 backups/monthly
 
-The snapshot folder will be used for rsyncing the content from the remote server. The snapshots are then tar.gz-ed and saved into the daily, weekly, monthly folders in the backups folder inside the main backups folder.
+The snapshot folder will be used for rsyncing the content from the remote server. The snapshots are then tar.gz-ed and saved into the daily, weekly, monthly folders in the backups folder inside the main backups folder. It is also assumed that the user under which the backup script runs on the backup server can login to the drupal server and access the drupal webroot and the database dump.
 
 Author: Zyxware Technologies (www.zyxware.com)
 License: GPL v3
